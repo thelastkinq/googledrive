@@ -2605,3 +2605,15 @@ padding: 5px 5px 5px 30px !important;
   color: #000;             /* Kırmızı yazı rengi */
   padding: 5px;
 }
+.izindevam block {
+    width: 20px;
+    height: 20px;
+    background: #e5caca;
+    border: 1px solid;
+}
+.izindevam block2 {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid;
+}
