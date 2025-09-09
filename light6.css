@@ -797,6 +797,38 @@ tr.normal td{
   margin-top: 10px;
   padding: 5px 10px;
 }
+
+.popupizin {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 70%;
+  overflow: visible
+}
+
+.popupizin.active {
+  display: block;
+  width: 80%;
+  top: 5%;
+  left: 25%;
+  border-radius: 10px;
+  background-color: #ccdeef;
+  text-transform: uppercase;
+  font-weight: 600;
+  overflow: visible
+  transform: scale(0.8); /* Sayfanın ölçeğini %80'e düşürür */
+  transform-origin: top left; /* Sayfanın sol üst köşesinden itibaren ölçeklendirir */
+}
+
+.popupizin button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
 .closePopup {
     display: flex;
     align-items: center;
