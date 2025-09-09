@@ -2605,6 +2605,20 @@ padding: 5px 5px 5px 30px !important;
   color: #000;             /* Kırmızı yazı rengi */
   padding: 5px;
 }
+.izindevam {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+.izibitti {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
 .izindevam block {
     width: 20px;
     height: 20px;
