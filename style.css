@@ -2592,3 +2592,13 @@ padding: 5px 5px 5px 30px !important;
 #tc_2:required {
     border-color: red;
 }
+
+#resultTableizin thead {
+      background: #1b6c6c;
+      color: #fff
+}
+tr.izin-devamediyor-row td {
+  background-color: #e5caca;  /* Hafif kırmızı arka plan */
+  color: #000;             /* Kırmızı yazı rengi */
+  padding: 5px;
+}
