@@ -1833,7 +1833,7 @@ navbar {
     right: 20px;
 }
 #resultHomeTable td, #resultHomeTableIstifa td, #resultTable td, #resultTableIstifa td, #genelPersonelTable td {
-max-width:120px
+max-width:140px
 }
 #duyuruContents {
     display: none;
